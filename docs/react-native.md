@@ -40,7 +40,7 @@ brew install watchman
 
 设置 npm 镜像：
 ```
-npm config set registry https://registry.npm.taobao.org --global
+npm config set registry https://https://registry.npmmirror.com --global
 npm config set disturl https://npm.taobao.org/dist --global
 ```
 
@@ -51,7 +51,7 @@ $ nrm ls
 
 * npm -----  https://registry.npmjs.org/
   cnpm ----  http://r.cnpmjs.org/
-  taobao --  https://registry.npm.taobao.org/
+  taobao --  https://https://registry.npmmirror.com/
   nj ------  https://registry.nodejitsu.com/
   skimdb -- https://skimdb.npmjs.com/registry
 
@@ -75,7 +75,7 @@ npm install -g yarn react-native-cli
 安装完 yarn 后同理也要设置镜像源：
 
 ```sh
-yarn config set registry https://registry.npm.taobao.org --global
+yarn config set registry https://https://registry.npmmirror.com --global
 yarn config set disturl https://npm.taobao.org/dist --global
 ```
 
